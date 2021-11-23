@@ -1,0 +1,36 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: dtse-practice-demo
+  #数据库配置参数
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://121.36.84.28:3306/dtse?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 0jGLaHY@@99bBoPC!
+  jpa:
+    open-in-view: off
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri:
+logging:
+  level:
+    root: info
+    com.huaweicloud: debug
+jwt:
+  config:
+    ttl: 360000
+
+##OBS 配置信息
+obs:
+  config:
+    bucketname: idaas-chengze
+    #objectname: dtsetraining/Dtest
+    endPoint: https://obs.cn-north-4.myhuaweicloud.com
+    ak: UDLUH6PD5XQ1QLB3QSEP
+    sk: OwsloFdgYZg3e504sAB7eNcyCU3FbA4MmJlbaH6x
+
+

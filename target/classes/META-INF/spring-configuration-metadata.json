@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "jwt.config",
+      "type": "com.huaweicloud.commons.JwtUtil",
+      "sourceType": "com.huaweicloud.commons.JwtUtil"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jwt.config.key",
+      "type": "java.security.Key",
+      "sourceType": "com.huaweicloud.commons.JwtUtil"
+    },
+    {
+      "name": "jwt.config.ttl",
+      "type": "java.lang.Long",
+      "sourceType": "com.huaweicloud.commons.JwtUtil",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
